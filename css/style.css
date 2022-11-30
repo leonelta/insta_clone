@@ -23,13 +23,6 @@ header aside{
     padding: 15px 0px 15px 30px;
 }
 
-header  section{
-    width: 85%;
-    height: 100%;
-    position: relative;
-  
-}
-
 header aside img{
     width: 45%;
     margin-top: 10px;
@@ -68,3 +61,6 @@ header aside ul li:nth-child(8){
     margin-top: 60%;
 }
 
+.main{
+    
+}
