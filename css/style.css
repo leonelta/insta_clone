@@ -62,5 +62,10 @@ header aside ul li:nth-child(8){
 }
 
 .main{
-    
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
+
