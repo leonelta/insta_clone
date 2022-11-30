@@ -59,3 +59,8 @@ header aside ul li a:hover{
     color: black;
 }
 
+header aside ul li a i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
