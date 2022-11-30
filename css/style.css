@@ -96,6 +96,10 @@ header aside ul li:nth-child(8){
     overflow-x: auto;
 }
 
+.status-wrapper::-webkit-scrollbar{
+    display: none;
+}
+
 .status-card{
     flex: 0 0 auto;
     width: 80px;
