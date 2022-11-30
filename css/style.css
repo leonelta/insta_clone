@@ -14,3 +14,10 @@ header{
     height: 100vh;
     background: whitesmoke;
 }
+
+header aside{
+    width: 17%;
+    height: 100%;
+    background: #fff;
+    padding: 15px 0px 15px 30px;
+}
