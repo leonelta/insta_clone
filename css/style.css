@@ -76,3 +76,8 @@ header aside ul li:nth-child(8){
     grid-template-columns: 60% 40%;
     grid-gap: 30px;
 }
+
+.left-col{
+    display: flex;
+    flex-direction: column;
+}
