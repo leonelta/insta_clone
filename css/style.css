@@ -69,3 +69,10 @@ header aside ul li:nth-child(8){
     margin-top: 50px;
 }
 
+.wrapper{
+    width: 70%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 30px;
+}
