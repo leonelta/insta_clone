@@ -11,14 +11,14 @@ body{
 header{
     position: relative;
     width: 100%;
-    height: 120vh;
+    height: auto;
     background: whitesmoke;
     display: flex;
 }
 
 header aside{
     width: 17%;
-    height: 100%;
+    height: auto;
     background: #fff;
     padding: 15px 0px 15px 30px;
 }
@@ -138,7 +138,7 @@ header aside ul li:nth-child(8){
 
 .post{
     width: 100%;
-    height: 600px;
+    height: auto;
     background: #fff;
     border: 1px solid #dfdfdf;
     margin-top: 40px;
