@@ -270,3 +270,24 @@ header aside ul li:nth-child(8){
 .reaction-wrapper .icon.save{
     margin-left: auto;
 }
+
+.right-col{
+    padding: 20px;
+}
+
+.profile-card{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.profile-card .profile-pic{
+    flex: 0 0 auto;
+    padding: 0;
+    background: none;
+    width: 40px;
+    height: 40px;
+    margin-right: 11px;
+}
