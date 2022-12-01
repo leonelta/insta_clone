@@ -242,3 +242,13 @@ header aside ul li:nth-child(8){
     outline: none;
     font-size: 14px;
 }
+
+.comment-btn{
+    width: 60px;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: rgb(116, 197, 252, 0.5);
+}
