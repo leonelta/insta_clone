@@ -243,13 +243,13 @@ header aside ul li:nth-child(8){
     font-size: 14px;
 }
 
-.comment-btn{
+.comment-btn, .action-btn{
     width: 60px;
-    height: 100%;
+    height: 90%;
     background: none;
     border: none;
     outline: none;
-    font-size: 16px;
+    font-size: 15px;
     color: rgb(116, 197, 252, 0.5);
 }
 
@@ -318,4 +318,11 @@ header aside ul li:nth-child(8){
     font-size: 12px;
     font-weight: 500;
     margin-top: 3px;
+}
+
+.action-btn{
+    opacity: 1;
+    font-weight: 700;
+    font-size: 12px;
+    margin-left: 140px;
 }
