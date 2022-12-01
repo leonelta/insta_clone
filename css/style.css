@@ -18,7 +18,11 @@ header{
 
 header aside{
     width: 17%;
-    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
     background: #fff;
     padding: 15px 0px 15px 30px;
 }
@@ -62,19 +66,22 @@ header aside ul li:nth-child(8){
 }
 
 .main{
-    width: 100%;
+    width: 103%;
     padding: 40px 0;
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    
 }
 
 .wrapper{
-    width: 70%;
-    max-width: 1000px;
+    width: 50%;
+    max-width: 1002px;
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-gap: 30px;
+    grid-gap: 40px;
+    position: relative;
+    left: 50px;
 }
 
 .left-col{
@@ -83,12 +90,12 @@ header aside ul li:nth-child(8){
 }
 
 .status-wrapper{
-    width: 100%;
+    width: 101%;
     height: 120px;
     background: #fff;
     border: 1px solid #dfdfdf;
     border-radius: 2px;
-    padding: 10px;
+    padding: 11px;
     padding-right: 0;
     display: flex;
     align-items: center;
@@ -102,7 +109,7 @@ header aside ul li:nth-child(8){
 
 .status-card{
     flex: 0 0 auto;
-    width: 80px;
+    width: 90px;
     max-width: 80px;
     display: flex;
     flex-direction: column;
@@ -137,7 +144,7 @@ header aside ul li:nth-child(8){
 }
 
 .post{
-    width: 100%;
+    width: 101%;
     height: auto;
     background: #fff;
     border: 1px solid #dfdfdf;
