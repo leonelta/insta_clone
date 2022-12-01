@@ -160,3 +160,8 @@ header aside ul li:nth-child(8){
     font-size: 14px;
     margin-left: 10px;
 }
+
+.info .options{
+    height: 10px;
+    cursor: pointer;
+}
