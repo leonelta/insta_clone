@@ -291,3 +291,8 @@ header aside ul li:nth-child(8){
     height: 40px;
     margin-right: 11px;
 }
+
+.profile-card:first-child .profile-pic{
+    width: 70px;
+    height: 70px;
+}
