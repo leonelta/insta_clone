@@ -70,18 +70,18 @@ header aside ul li:nth-child(8){
     padding: 40px 0;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 20px;
     
 }
 
 .wrapper{
-    width: 50%;
+    width: 55%;
     max-width: 1002px;
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 50% 50%;
     grid-gap: 40px;
     position: relative;
-    left: 50px;
+    left: 60px;
 }
 
 .left-col{
@@ -90,12 +90,12 @@ header aside ul li:nth-child(8){
 }
 
 .status-wrapper{
-    width: 101%;
+    width: 110%;
     height: 120px;
     background: #fff;
     border: 1px solid #dfdfdf;
-    border-radius: 2px;
-    padding: 11px;
+    border-radius: 5px;
+    padding: 12px;
     padding-right: 0;
     display: flex;
     align-items: center;
@@ -109,12 +109,12 @@ header aside ul li:nth-child(8){
 
 .status-card{
     flex: 0 0 auto;
-    width: 90px;
+    width: 100px;
     max-width: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 15px;
+    margin-right: 14px;
 }
 
 .profile-pic{
@@ -144,10 +144,11 @@ header aside ul li:nth-child(8){
 }
 
 .post{
-    width: 101%;
+    width: 110%;
     height: auto;
     background: #fff;
     border: 1px solid #dfdfdf;
+    border-radius: 10px;
     margin-top: 40px;
 }
 
@@ -243,7 +244,7 @@ header aside ul li:nth-child(8){
     font-size: 14px;
 }
 
-.comment-btn, .action-btn{
+.comment-btn{
     width: 60px;
     height: 90%;
     background: none;
@@ -272,13 +273,13 @@ header aside ul li:nth-child(8){
 }
 
 .right-col{
-    padding: 20px;
+    padding: 40px;
 }
 
 .profile-card{
     width: fit-content;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 6px;
 }
@@ -303,19 +304,15 @@ header aside ul li:nth-child(8){
 
 .profile-card .username{
     font-weight: 500;
-    font-size: 14px;
+    font-size: 13px;
     color: #000;
+    left: auto;
 }
 
-.profile-card .username{
-    font-weight: 500;
-    font-size: 14px;
-    color: #000;
-}
 
 .sub-text{
     color: rgba(0, 0, 0, 0.5);
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 500;
     margin-top: 3px;
 }
@@ -324,5 +321,31 @@ header aside ul li:nth-child(8){
     opacity: 1;
     font-weight: 700;
     font-size: 12px;
-    margin-left: 140px;
+    width: 60px;
+    height: 90%;
+    background: none;
+    border: none;
+    outline: none;
+    color: rgb(116, 197, 252, 0.5);
+    margin-left: 90px;
+}
+
+.suggestion{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    align-items: center;
+}
+
+.suggestion-text{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+}
+
+.everything{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+    margin-right: 5px;
 }
